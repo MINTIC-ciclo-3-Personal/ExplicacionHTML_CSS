@@ -7,3 +7,61 @@ h3 {
 a{
     background-color: aqua;
 }
+
+#parrafo3{
+    color: green;
+}
+
+.parrafoGris{
+    color: gray;
+}
+.parrafoNegro{
+    color: black;
+}
+.parrafoAzul{
+    color: blue;
+}
+.fondoRojo{
+    background-color: red;
+    /*background-color: rgb(4, 176, 228);*/
+}
+.textoGrandeNegrita{
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+}
+.imagenPequeña{
+    height: 500px;
+    width: 900px;
+}
+.contenedorConMargen{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.contenedorDivs{
+    border: 2px solid green;
+    grid-template-rows: 50px 50px;
+    grid-template-columns:150px 150px 150px;
+}
+.contenedorDivsGrid{
+    border: 2px solid green;
+    display: grid;
+    grid-template-rows: 50px 50px;
+    grid-template-columns:30% 30% 40%;
+}
+.divTest{
+    border: 1px solid red;
+}
+
+.contenedorDivsFlex{
+    border:2px solid green;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
