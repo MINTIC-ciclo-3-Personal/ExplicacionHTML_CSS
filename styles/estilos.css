@@ -12,34 +12,31 @@ ul{
     display: flex;
     justify-content: space-between;
 }
-.mainButton{
-    background-color: #1bb76e;
-    color: white;
+
+.button {
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
     box-shadow: 2px 2px gray;
 }
-
-.mainButton:hover{
+.button:hover {
     cursor: pointer;
-    background-color: #1dd880;
     transform: scale(1.2);
+}
+
+.mainButton{
+    background-color: #1bb76e;
+    color: white;
+}
+.mainButton:hover{
+    background-color: #1dd880;
 }
 
 .secondaryButton{
     background-color: #1b93b7;
     color: white;
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
-    box-shadow: 2px 2px gray;
 }
-
 .secondaryButton:hover{
-    cursor: pointer;
     background-color: #12aad8;
-    transform: scale(1.2);
 }
